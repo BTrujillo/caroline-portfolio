@@ -1,0 +1,24 @@
+.navbar {
+	height: 80px;
+}
+
+.navbar-brand {
+	padding-top: 30px;
+	font-size: 30pt;
+}
+
+#wrapper {
+	padding-top: 40px;
+}
+
+.gallery {
+	padding: 10px 10px;
+}
+
+.gallery img {
+	width: 100%;
+}
+
+.gallery p {
+	margin: 5px 0px;
+}
