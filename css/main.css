@@ -7,6 +7,10 @@ p {
 	font-size: 10pt;
 }
 
+.active {
+	background-color: 
+}
+
 .navbar {
 	height: 80px;
 }
@@ -18,12 +22,12 @@ p {
 
 .navbar ul {
 	float: right;
-	padding-top: 4px;
+	padding-top: 12px;
 	padding-left: 80px;
 }
 
 .navbar li {
-	font-size: 18pt;
+	font-size: 14pt;
 	color: #5E5E5E;
 }
 
