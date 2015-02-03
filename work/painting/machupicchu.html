@@ -6,12 +6,14 @@
 		<title>Caroline Chen</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="css/sidebarstyles.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+		<link href="/css/sidebarstyles.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/bower_components/slick.js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/bower_components/slick.js/slick/slick-theme.css"/>
     <link href='http://fonts.googleapis.com/css?family=Abel|Armata' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
@@ -26,7 +28,7 @@
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
            </button>
-           <a class="navbar-brand" href="#">Caroline Chen</a>
+           <a class="navbar-brand" href="/index.html">Caroline Chen</a>
            <ul class="nav navbar navbar-right">
             <li>email: carolinechen2011@gmail.com</li>
             <li>phone: (703) 380-4881</li>
@@ -42,14 +44,14 @@
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
             <ul class="nav">
               <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="resume.html">Resume</a></li>
+              <li><a href="/resume.html">Resume</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Work <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="work/architecture.html">Architecture</a></li>
-                  <li><a href="work/painting.html">Painting</a></li>
-                  <li><a href="work/drawing.html">Drawing</a></li>
-                  <li><a href="work/cartography.html">Cartography</a></li>
+                  <li><a href="/work/architecture.html">Architecture</a></li>
+                  <li><a href="/work/painting.html">Painting</a></li>
+                  <li><a href="/work/drawing.html">Drawing</a></li>
+                  <li><a href="/work/cartography.html">Cartography</a></li>
                 </ul>
               </li>
               <li><a href="#">Contact</a></li>              
@@ -59,49 +61,25 @@
         <!-- main area -->
 
         <div class="col-xs-12 col-sm-9 work">
-          <div><img src="media/mp.jpg"/></div>
-          <div><img src="media/mp.jpg"/></div>
-          <div><img src="media/mp.jpg"/></div>
+          <div><img src="/media/mp.jpg"/></div>
+          <div><img src="/media/mp.jpg"/></div>
+          <div><img src="/media/mp.jpg"/></div>
         </div>
-
-        <div class="col-xs-12 col-sm-9">
-          <div class="col-xs-6 col-sm-4 col-lg-3 gallery">
-            <img src="media/puppy.jpg"/>
-            <p>Sed pellentesque consequat felis vitae congue. Etiam sed pulvinar eros.</p>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-lg-3 gallery">
-            <img src="media/puppy.jpg"/>
-            <p>Quisque pharetra, turpis ac hendrerit fringilla, sapien mauris iaculis dui.</p>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-lg-3 gallery">
-            <img src="media/puppy.jpg"/>
-            <p>Etiam sed pulvinar eros. Quisque pharetra, turpis ac hendrerit fringilla, sapien.</p>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-lg-3 gallery">
-            <img src="media/puppy.jpg"/>
-            <p>Sed pellentesque consequat felis vitae congue. Etiam sed pulvinar eros.</p>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-lg-3 gallery">
-            <img src="media/puppy.jpg"/>
-            <p>Sed pellentesque consequat felis vitae congue. Etiam sed pulvinar eros.</p>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-lg-3 gallery">
-            <img src="media/puppy.jpg"/>
-            <p>Quisque pharetra, turpis ac hendrerit fringilla, sapien mauris iaculis dui.</p>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-lg-3 gallery">
-            <img src="media/puppy.jpg"/>
-            <p>Etiam sed pulvinar eros. Quisque pharetra, turpis ac hendrerit fringilla, sapien.</p>
-          </div>
-        </div><!-- /.col-xs-12 main -->
-
+        
 
     </div><!--/.row-->
   </div><!--/.container-->
 </div><!--/.page-container-->
 	<!-- script references -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/sidebarscripts.js"></script>
+    <script type="text/javascript" src="/bower_components/slick.js/slick/slick.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/sidebarscripts.js"></script>
+
+    $(document).ready(function(){
+          $('.work').slick({
+            setting-name: setting-value
+          });
+    });
 	</body>
 </html>
