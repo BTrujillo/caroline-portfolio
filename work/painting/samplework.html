@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Caroline Chen</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="/css/sidebarstyles.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/bower_components/slick.js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/bower_components/slick.js/slick/slick-theme.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Abel|Armata' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+<div class="page-container">
+  
+	<!-- top navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+       <div class="container">
+    	<div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="/index.html">CAROLINE CHEN</a>
+           <ul class="nav navbar navbar-right">
+            <li>email: carolinechen2011@gmail.com</li>
+            <li>phone: (703) 380-4881</li>
+           </ul>
+    	</div>
+       </div>
+    </div>
+      
+    <div class="container" id="wrapper">
+      <div class="row row-offcanvas row-offcanvas-left">
+        
+        <!-- sidebar -->
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+            <ul class="nav">
+              <li class="active"><a href="/index.html">HOME</a></li>
+              <li><a href="/resume.html">RESUME</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">WORK <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="/work/architecture.html">ARCHITECTURE</a></li>
+                  <li><a href="/work/painting.html">PAINTING</a></li>
+                  <li><a href="/work/drawing.html">DRAWING</a></li>
+                  <li><a href="/work/cartography.html">CARTOGRAPHY</a></li>
+                </ul>
+              </li>
+              <li><a href="#">CONTACT</a></li>              
+            </ul>
+        </div>
+  	
+        <!-- main area -->
+
+        <div class="col-xs-12 col-sm-9 col-lg-9">
+	  <div class="work-slider">
+            <div class="work-slider-slide">
+              <img src="/media/mp.jpg"/>
+                <h3>MACCHU PICCHU, PERU - 2009</h3>
+                <p>Duis vitae libero at odio porta eleifend id in enim. Cras cursus tincidunt suscipit. Praesent id mattis lorem. Aliquam ac efficitur mauris. Mauris dui neque, auctor sit amet laoreet ut, suscipit in ex. Ut vitae pharetra metus, et maximus dui. Morbi condimentum interdum ullamcorper. Fusce in ornare ex. Curabitur condimentum arcu id ipsum placerat, sed aliquam nisi consectetur.</p>
+            </div>
+            <div class="work-slider-slide">
+              <img src="/media/pyramids.jpg"/>
+                <h3>PYRAMIDS AT GAZA, EGYPT - 2014</h3>
+                <p>Morbi pretium a libero id suscipit. Maecenas ut dui ac nisl consequat feugiat. Nam id arcu pharetra ex accumsan tincidunt. Nam porta turpis nulla, ut vestibulum lacus feugiat at. Sed tincidunt consectetur dictum. Nam vitae semper turpis. Phasellus vitae lectus dictum, fermentum mauris eget, congue risus. Proin eleifend purus at dapibus volutpat. Integer metus enim, faucibus et mollis sit amet, porta at tortor. Curabitur egestas ante vel lorem congue gravida. Suspendisse vulputate nisl vel ipsum rhoncus, ut ultrices leo viverra.</p>
+            </div>
+            <div class="work-slider-slide">
+              <img src="/media/greatwall.jpg"/>
+                <h3>THE GREAT WALL, CHINA - 2012</h3>
+                <p>Donec commodo maximus sagittis. Aenean vel aliquam felis. Suspendisse at pellentesque ante. Praesent a posuere nisi. Integer eu quam libero. Sed lectus purus, cursus et maximus eu, semper a turpis. Etiam porta diam non facilisis tempor. Curabitur a nulla maximus metus dignissim sollicitudin. Nunc non lacus nec eros fermentum venenatis a eget arcu. Maecenas imperdiet imperdiet magna, at semper eros blandit et. Donec eu venenatis diam, non pellentesque felis. Etiam porta feugiat urna, sed vestibulum ligula elementum quis. Sed fringilla nec augue quis volutpat.</p>
+            </div>
+          </div>
+	</div>
+       
+
+    </div><!--/.row-->
+  </div><!--/.container-->
+</div><!--/.page-container-->
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/bower_components/slick.js/slick/slick.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/sidebarscripts.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+            $('.work-slider').slick({
+              dots: true,
+              infinite: true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              adaptiveHeight: true,
+              fade: true,
+              speed: 500,
+              cssEase: 'linear'
+            });
+      });
+    </script>
+	</body>
+</html>
