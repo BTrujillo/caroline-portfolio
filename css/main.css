@@ -22,7 +22,7 @@ p {
 
 .navbar ul {
 	float: right;
-	padding-top: 12px;
+	padding-top: 13px;
 	padding-left: 45px;
 }
 
@@ -57,9 +57,14 @@ p {
 
 .work-slider {
 	padding: 15px 15px;
+	padding-bottom: 0px !important;
 }
 
-.work-slider img {
+.work-slider-slide p {
+	margin-bottom: 0px;
+}
+
+.work-slider-slide img {
 	width: 100%;
 	display: block;
 	margin-left: auto;
