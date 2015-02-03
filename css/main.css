@@ -50,3 +50,7 @@ p {
 .gallery p {
 	margin: 5px 0px;
 }
+
+.slick-prev:before, .slick-next:before { 
+    color:black !important;
+}
