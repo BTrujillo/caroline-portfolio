@@ -23,12 +23,14 @@ p {
 .navbar ul {
 	float: right;
 	padding-top: 13px;
-	padding-left: 45px;
+	list-style: none;
+	list-style-type: none;
 }
 
 .navbar li {
 	font-size: 13pt;
 	color: #5E5E5E;
+	list-style-type: none;
 }
 
 .nav a {
