@@ -21,7 +21,7 @@
   
 	<!-- top navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-       <div class="container">
+       <div class="container fixed-width">
     	<div class="navbar-header">
            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".sidebar-nav">
              <span class="icon-bar"></span>
@@ -29,15 +29,19 @@
              <span class="icon-bar"></span>
            </button>
            <a class="navbar-brand" href="/index.html">CAROLINE CHEN</a>
-           <ul class="nav navbar navbar-right">
+      	</div>
+	<span class="hidden-xs">
+        <div class="nav navbar navbar-right">
+	 <ul class="nav navbar navbar-right">
             <li>email: carolinechen2011@gmail.com</li>
             <li>phone: (703) 380-4881</li>
            </ul>
-    	</div>
-       </div>
+	</div> 
+	</span>
+      </div>
     </div>
       
-    <div class="container" id="wrapper">
+    <div class="container fixed-width" id="wrapper">
       <div class="row row-offcanvas row-offcanvas-left">
         
         <!-- sidebar -->
@@ -98,8 +102,7 @@
               slidesToShow: 1,
               slidesToScroll: 1,
               adaptiveHeight: true,
-              fade: true,
-              speed: 500,
+              speed: 350,
               cssEase: 'linear'
             });
       });

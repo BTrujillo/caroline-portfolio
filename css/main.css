@@ -4,7 +4,7 @@ h1, h2, h3, a, li {
 
 p {
 	font-family: 'Armata', sans-serif;
-	font-size: 10pt;
+	font-size: 8pt;
 }
 
 .active {
@@ -17,24 +17,24 @@ p {
 
 .navbar-brand {
 	padding-top: 30px;
-	font-size: 30pt;
+	font-size: 25pt;
 }
 
 .navbar ul {
 	float: right;
-	padding-top: 13px;
+	padding-top: 16px;
 	list-style: none;
 	list-style-type: none;
 }
 
 .navbar li {
-	font-size: 13pt;
+	font-size: 12pt;
 	color: #5E5E5E;
 	list-style-type: none;
 }
 
 .nav a {
-	font-size: 12pt;
+	font-size: 11pt;
 }
 
 #wrapper {
@@ -62,9 +62,6 @@ p {
 	padding-bottom: 0px !important;
 }
 
-.work-slider-slide p {
-	margin-bottom: 0px;
-}
 
 .work-slider-slide img {
 	width: 100%;
@@ -86,4 +83,13 @@ img.grayscale:hover {
 img.grayscale {
   filter: none;
   -webkit-filter: grayscale(0%);
+}
+
+.fixed-width {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+button {
+	margin-top: 23px !important;
 }
