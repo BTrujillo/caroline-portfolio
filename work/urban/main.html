@@ -12,8 +12,6 @@
 		<![endif]-->
 		<link href="/css/styles.css" rel="stylesheet">
 		<link href="/css/main.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/bower_components/slick.js/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="/bower_components/slick.js/slick/slick-theme.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Abel|Armata' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
@@ -38,10 +36,9 @@
           <li class="dropdown active">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">WORK <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="/work/architecture/main.html">ARCHITECTURE</a></li>
-              <li><a href="/work/painting/main.html">PAINTING</a></li>
-              <li><a href="/work/drawing/main.html">DRAWING</a></li>
-              <li><a href="/work/cartography/main.html">CARTOGRAPHY</a></li>
+              <li><a href="/work/urban/main.html">URBAN</a></li>
+              <li><a href="/work/building/main.html">BUILDING</a></li>
+              <li><a href="/work/object/main.html">OBJECT</a></li>
             </ul>
           </li>
           <li><a href="#">CONTACT</a></li>
@@ -59,17 +56,14 @@
   </div>
   
   <!-- Begin page content -->
-<div class="container">
-  <div class="col-xs-12 col-sm-12 col-lg-12">
-    <div class="work-slider">
-            <div class="work-slider-slide">
-              <img src="/media/drugstorevendingmachine1.png"/>
-                <h3>DRUG STORE VENDING MACHINE - 2013</h3>
-                <p>Duis vitae libero at odio porta eleifend id in enim. Cras cursus tincidunt suscipit. Praesent id mattis lorem. Aliquam ac efficitur mauris. Mauris dui neque, auctor sit amet laoreet ut, suscipit in ex. Ut vitae pharetra metus, et maximus dui. Morbi condimentum interdum ullamcorper. Fusce in ornare ex. Curabitur condimentum arcu id ipsum placerat, sed aliquam nisi consectetur.</p>
-            </div>
-         </div>
-  </div>
-</div>
+
+  <div class="col-xs-12 col-sm-9 container gallery-wrapper">
+          <div class="col-xs-6 col-sm-4 col-lg-3 gallery">
+            <a href="/work/urban/datascapes.html"><img class="grayscale"  src="/media/thumbnail_Conflictmapwebversopm.png"/></a>
+            <p>Chinatown, An Informal Bus Depot</p>
+
+          </div>
+       </div><!-- /.col-xs-12 main -->
 </div>
 
 <div id="footer">
@@ -81,19 +75,5 @@
 	<!-- script references -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/bower_components/slick.js/slick/slick.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function(){
-            $('.work-slider').slick({
-              dots: true,
-              infinite: true,
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              adaptiveHeight: true,
-              speed: 350,
-              cssEase: 'linear'
-            });
-      });
-    </script>
 	</body>
 </html>
