@@ -12,6 +12,8 @@
 		<![endif]-->
 		<link href="/css/styles.css" rel="stylesheet">
 		<link href="/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/bower_components/slick.js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/bower_components/slick.js/slick/slick-theme.css"/>
 		<link href='http://fonts.googleapis.com/css?family=Abel|Armata' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
@@ -56,22 +58,34 @@
   </div>
   
   <!-- Begin page content -->
+<div class="container">
+  <div class="col-xs-12 col-sm-12 col-lg-12">
+    <div class="work-slider">
+            <div class="work-slider-slide">
+              <img src="/media/ludic/eastsiderendering.png"/>
+                <h3>LUDIC GREEN LAB</h3> 
+	     </div> 
+	<div class="work-slider-slide"> 
+		<img src="/media/ludic/ediblefloorplan.png"/> 
+		<h3>LUDIC GREEN LAB</h3>
+	</div> 
+	<div class="work-slider-slide"> 
+		<img src="/media/ludic/edibleschoolyardsiteplan.png"/> 
+		<h3>LUDIC GREEN LAB</h3> 
+	</div> 
+	<div class="work-slider-slide">
+              <img src="/media/ludic/renderingsouthside.png"/>
+                <h3>LUDIC GREEN LAB</h3>
+            </div>
+	<div class="work-slider-slide">
+              <img src="/media/ludic/viewfrommetronorg.png"/>
+                <h3>LUDIC GREEN LAB</h3>
+            </div>
 
-  <div class="col-xs-12 col-sm-9 container gallery-wrapper">
-          <div class="col-xs-6 col-sm-4 col-lg-3 gallery">
-            <a href="/work/building/drugstorevendingmachine.html"><img class="grayscale"  src="/media/thumbnail_drugstorevendingmachine1.png"/></a>
-            <p>Drug Store Vending Machine</p>
-          </div>
-         <div class="col-xs-6 col-sm-4 col-lg-3 gallery">
-            <a href="/work/building/ludicgreenlab.html"><img class="grayscale"  src="/media/ludic/thumbnail_renderingsouthside.png"/></a>
-            <p>Ludic Green Lab</p>
-          </div>
-	<div class="col-xs-6 col-sm-4 col-lg-3 gallery">
-            <a href="/work/building/water.html"><img class="grayscale"  src="/media/water/thumbnail_FERRYFROMSTREET.png"/></a>
-            <p>Water As Public Space</p>
-          </div>
 
-       </div><!-- /.col-xs-12 main -->
+         </div>
+  </div>
+</div>
 </div>
 
 <div id="footer">
@@ -83,5 +97,19 @@
 	<!-- script references -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bower_components/slick.js/slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+            $('.work-slider').slick({
+              dots: true,
+              infinite: true,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              adaptiveHeight: true,
+              speed: 350,
+              cssEase: 'linear'
+            });
+      });
+    </script>
 	</body>
 </html>
