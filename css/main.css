@@ -73,9 +73,13 @@ p {
 
 .gallery-wrapper {
 	margin-top: 70px;
-	padding: 30px !important;
+	padding-top: 30px !important;
 	padding-left: 15px !important;
 	padding-right: 15px !important;
+}
+
+.clear {
+	clear: both;
 }
 
 .slick-prev:before, .slick-next:before { 
