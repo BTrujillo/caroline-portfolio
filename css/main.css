@@ -39,9 +39,9 @@ p {
     padding-bottom: 10px;}
 }
 
-.navbar-brand {
-	padding-top: 25px;
-	font-size: 25pt;
+.navbar-brand img {
+	max-height: 50px;
+	padding-bottom: 10px;
 }
 
 .navbar ul {
